@@ -78,5 +78,5 @@ cd $BDIR/doomsday
 echo ---------ziping pack---------
 zip -r doomsday . -i Info \*.png \*.ded \*.txt
 echo ---------renaming, adding date of compile, and moving to the built folder---------
-mv doomsday.zip ../built/deng-dhtp-20$mydate.pk3
+mv doomsday.zip ../build/deng-dhtp-20$mydate.pk3
 echo ---------Complete---------

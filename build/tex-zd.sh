@@ -39,6 +39,6 @@ cd $BDIR/zdoom
 echo ---------ziping pack---------
 zip -r zdoom . -i \*.png \*.txt
 echo renaming and adding date of compile
-mv zdoom.zip ../built/zdoom-dhtp-20$mydate.pk3
+mv zdoom.zip ../build/zdoom-dhtp-20$mydate.pk3
 cd ..
 echo ---------Complete---------
